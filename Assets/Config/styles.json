@@ -1,0 +1,29 @@
+[
+    {
+        "name": "test",
+        "slots": {
+            "slot": "test_slot",
+            "discard": "test_discard",
+            "frame": "test_frame"
+        },
+        "background": "test_background"
+    },
+    {
+        "name": "test_reverse",
+        "slots": {
+            "slot": "test_slot",
+            "discard": "test_discard",
+            "frame": "test_frame"
+        },
+        "background": "test_background"
+    },
+    {
+        "name": "default",
+        "slots": {
+            "slot": "test_slot",
+            "discard": "test_discard",
+            "frame": "test_frame"
+        },
+        "background": "test_background"
+    }
+]

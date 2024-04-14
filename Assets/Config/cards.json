@@ -1,0 +1,1896 @@
+[
+    {
+        "name": "Propeller Rat",
+        "sprite": "card-1",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Blitzsteed",
+        "sprite": "card-2",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Blorb",
+        "sprite": "card-3",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Beeto",
+        "sprite": "card-4",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Dozedrake",
+        "sprite": "card-5",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Invisishade",
+        "sprite": "card-6",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Zamby",
+        "sprite": "card-7",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Fleeto",
+        "sprite": "card-8",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Divedrake",
+        "sprite": "card-9",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Boneclang",
+        "sprite": "card-10",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Wizzem",
+        "sprite": "card-11",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Super Skeleton",
+        "sprite": "card-12",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Griffoth",
+        "sprite": "card-13",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Goldarmor",
+        "sprite": "card-14",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Flailarmor",
+        "sprite": "card-15",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Rookie",
+        "sprite": "card-16",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Bard",
+        "sprite": "card-17",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Cooper",
+        "sprite": "card-18",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Rat King",
+        "sprite": "card-19",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Fairy",
+        "sprite": "card-20",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Tadvolt",
+        "sprite": "card-21",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Torpeeto",
+        "sprite": "card-22",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Hedge Pupil",
+        "sprite": "card-23",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Duelist Di",
+        "sprite": "card-24",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Ruffian",
+        "sprite": "card-25",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Croaker",
+        "sprite": "card-26",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Gastronomer",
+        "sprite": "card-27",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "double"
+        ]
+    },
+    {
+        "name": "Goatician",
+        "sprite": "card-28",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Ledge Farmer",
+        "sprite": "card-29",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Skip",
+        "sprite": "card-30",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Chester",
+        "sprite": "card-31",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Traitorus",
+        "sprite": "card-32",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Hedge Farmer",
+        "sprite": "card-33",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Farrels",
+        "sprite": "card-34",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Playing Kid",
+        "sprite": "card-35",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Barton",
+        "sprite": "card-36",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Hoop Kid",
+        "sprite": "card-37",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "simple",
+            "double"
+        ]
+    },
+    {
+        "name": "Grandma Swamp",
+        "sprite": "card-38",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Hengineer",
+        "sprite": "card-39",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Troupple Missionary",
+        "sprite": "card-40",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "double",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Black Knight",
+        "sprite": "card-41",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "simple",
+            "double"
+        ]
+    },
+    {
+        "name": "Shovel Smith",
+        "sprite": "card-42",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Armorer",
+        "sprite": "card-43",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Troupple Acolyte",
+        "sprite": "card-44",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Gouache",
+        "sprite": "card-45",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Doe",
+        "sprite": "card-46",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "double",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Lunkeroth",
+        "sprite": "card-47",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Boneclang Honcho",
+        "sprite": "card-48",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Teethalon",
+        "sprite": "card-49",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Sumo Goldarmor",
+        "sprite": "card-50",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Baz",
+        "sprite": "card-51",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Terrorpin",
+        "sprite": "card-52",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Mom",
+        "sprite": "card-53",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Mole Knight",
+        "sprite": "card-54",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "bomb",
+            "bomb",
+            "double"
+        ]
+    },
+    {
+        "name": "King Pridemoor",
+        "sprite": "card-55",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "King Knight",
+        "sprite": "card-56",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "King Birder",
+        "sprite": "card-57",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Troupple King",
+        "sprite": "card-58",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "The Big Creep",
+        "sprite": "card-59",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Phantom Striker",
+        "sprite": "card-60",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Specter Knight",
+        "sprite": "card-61",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Luan",
+        "sprite": "card-62",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Gall",
+        "sprite": "card-63",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Red",
+        "sprite": "card-64",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Scarlet",
+        "sprite": "card-65",
+        "abilities": [
+            "Grave"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Whippicles",
+        "sprite": "card-66",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Macawbe",
+        "sprite": "card-67",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Serprize",
+        "sprite": "card-68",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Memmec",
+        "sprite": "card-69",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Grapps",
+        "sprite": "card-70",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Hoppicles",
+        "sprite": "card-71",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Mole Minion",
+        "sprite": "card-72",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Toadsdrake",
+        "sprite": "card-73",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Jumbolorb",
+        "sprite": "card-74",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Big Bohto",
+        "sprite": "card-75",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Charflounder",
+        "sprite": "card-76",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Ratsploder",
+        "sprite": "card-77",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "bomb",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Hermittack",
+        "sprite": "card-78",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Moler",
+        "sprite": "card-79",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "bomb",
+            "none"
+        ]
+    },
+    {
+        "name": "Plague Minion",
+        "sprite": "card-80",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Troupple",
+        "sprite": "card-81",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "bomb",
+            "none",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Gulper Mage",
+        "sprite": "card-82",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "bomb",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Blazorb",
+        "sprite": "card-83",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "none",
+            "bomb",
+            "none"
+        ]
+    },
+    {
+        "name": "Birder Bearer",
+        "sprite": "card-84",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "none",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Kettleleg",
+        "sprite": "card-85",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "bomb",
+            "bomb",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Ratsploder King",
+        "sprite": "card-86",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "none",
+            "bomb",
+            "bomb"
+        ]
+    },
+    {
+        "name": "The Alchemeister",
+        "sprite": "card-87",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "bomb",
+            "none"
+        ]
+    },
+    {
+        "name": "The Dinghy Dropper",
+        "sprite": "card-88",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "bomb",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Birder",
+        "sprite": "card-89",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "double",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Gobcano",
+        "sprite": "card-90",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "horizontal",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Hootstack",
+        "sprite": "card-91",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "horizontal",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Mantar",
+        "sprite": "card-92",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Tadfloat",
+        "sprite": "card-93",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Toader",
+        "sprite": "card-94",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "double",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Leo",
+        "sprite": "card-95",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Oolong",
+        "sprite": "card-96",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Dancer",
+        "sprite": "card-97",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "double",
+        "arrows": [
+            "bomb",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Percy",
+        "sprite": "card-98",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Plague Knight",
+        "sprite": "card-99",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "horizontal",
+        "arrows": [
+            "double",
+            "none",
+            "bomb",
+            "double"
+        ]
+    },
+    {
+        "name": "Mona",
+        "sprite": "card-100",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "bomb",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Treasure Knight",
+        "sprite": "card-101",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Clockameleon",
+        "sprite": "card-102",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Electrodent",
+        "sprite": "card-103",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Rail Rider",
+        "sprite": "card-104",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Tinkerbot",
+        "sprite": "card-105",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Floundair",
+        "sprite": "card-106",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Tundread",
+        "sprite": "card-107",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Blorbsidian",
+        "sprite": "card-108",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "double"
+        ]
+    },
+    {
+        "name": "Goldome",
+        "sprite": "card-109",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Rungstrider",
+        "sprite": "card-110",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "double",
+        "arrows": [
+            "simple",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Spinwulf",
+        "sprite": "card-111",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "horizontal",
+        "arrows": [
+            "none",
+            "none",
+            "simple",
+            "none"
+        ]
+    },
+    {
+        "name": "Cinderwulf",
+        "sprite": "card-112",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "horizontal",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Cogslotter",
+        "sprite": "card-113",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "simple",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Sine Dagger",
+        "sprite": "card-114",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "vertical",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Polar Knight",
+        "sprite": "card-115",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Tinker Knight",
+        "sprite": "card-116",
+        "abilities": [
+            "Switch"
+        ],
+        "switch": "double",
+        "arrows": [
+            "double",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Planto",
+        "sprite": "card-117",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Hover Meanie",
+        "sprite": "card-118",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Floatsmall",
+        "sprite": "card-119",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Hoverhaft",
+        "sprite": "card-120",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Floatsome",
+        "sprite": "card-121",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Hurlsvelgr",
+        "sprite": "card-122",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Blubber Meanie",
+        "sprite": "card-123",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Bladescale",
+        "sprite": "card-124",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Yoppler",
+        "sprite": "card-125",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Reize",
+        "sprite": "card-126",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Fish Head",
+        "sprite": "card-127",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Mr. Hat",
+        "sprite": "card-128",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "Propeller Knight",
+        "sprite": "card-129",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "double"
+        ]
+    },
+    {
+        "name": "Liquid Samurai Reaver",
+        "sprite": "card-130",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "name": "Liquid Samurai Swordsman",
+        "sprite": "card-131",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Liquid Samurai Archer",
+        "sprite": "card-132",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "none",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Flarey",
+        "sprite": "card-133",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Axolongl",
+        "sprite": "card-134",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Slimulacra",
+        "sprite": "card-135",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Dark Acolyte",
+        "sprite": "card-136",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Missy",
+        "sprite": "card-137",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Manny",
+        "sprite": "card-138",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Edge Farmer",
+        "sprite": "card-139",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Horace",
+        "sprite": "card-140",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "simple",
+            "simple",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Shield Knight",
+        "sprite": "card-141",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "double",
+            "none"
+        ]
+    },
+    {
+        "name": "Shovel Knight",
+        "sprite": "card-142",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "double",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Dark Reize",
+        "sprite": "card-143",
+        "abilities": [],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "double",
+            "none",
+            "simple"
+        ]
+    },
+    {
+        "name": "Donovan",
+        "sprite": "card-144",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "none",
+            "simple",
+            "simple"
+        ]
+    },
+    {
+        "name": "Cloaked Figure",
+        "sprite": "card-145",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "double",
+            "simple",
+            "none",
+            "double"
+        ]
+    },
+    {
+        "name": "The Enchantress",
+        "sprite": "card-146",
+        "abilities": [
+            "Cascade"
+        ],
+        "switch": "none",
+        "arrows": [
+            "none",
+            "simple",
+            "double",
+            "simple"
+        ]
+    },
+    {
+        "name": "Cardia",
+        "sprite": "card-147",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "double",
+            "double",
+            "bomb"
+        ]
+    },
+    {
+        "name": "Giga Cardia",
+        "sprite": "card-148",
+        "abilities": [
+            "Slam"
+        ],
+        "switch": "none",
+        "arrows": [
+            "bomb",
+            "bomb",
+            "bomb",
+            "bomb"
+        ]
+    }
+]

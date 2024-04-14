@@ -1,0 +1,72 @@
+[
+    {
+        "name": "RandomSmall01",
+        "style": "test",
+        "gems": 1,
+        "level": [
+            " XX ",
+            "X##X",
+            "X##X",
+            " XX "
+        ]
+    },
+    {
+        "name": "RandomSmall01",
+        "style": "test",
+        "gems": 1,
+        "level": [
+            " XX ",
+            "X##X",
+            "X##X",
+            "X##X",
+            " XX "
+        ]
+    },
+    {
+        "name": "Random01",
+        "style": "test",
+        "gems": 3,
+        "level": [
+            " XXX ",
+            "X###X",
+            "X###X",
+            "X###X",
+            " XXX "
+        ]
+    },
+    {
+        "name": "Random02",
+        "style": "test",
+        "gems": 3,
+        "level": [
+            " XXX ",
+            "X###X",
+            "X#X#X",
+            "X###X",
+            " XXX "
+        ]
+    },
+    {
+        "name": "RandomBig01",
+        "style": "test",
+        "gems": 3,
+        "level": [
+            "  #  ",
+            " ### ",
+            "#####",
+            " ### ",
+            "  #  "
+        ]
+    },
+    {
+        "name": "RandomBig01",
+        "style": "test",
+        "gems": 3,
+        "level": [
+            "####",
+            "#  #",
+            "#  #",
+            "####"
+        ]
+    }
+]

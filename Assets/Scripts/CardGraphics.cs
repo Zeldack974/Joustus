@@ -27,9 +27,10 @@ public class CardGraphics
         card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferances.instance.CardsAtlas.GetSprite(card.AbstractCard.type.sprite);
         if (card.playerOwer == 1)
         {
-            Vector3 scale = card.transform.localScale;
+            Vector3 scale = card.transform.Find("Image").localScale;
             scale.x *= -1;
-            card.transform.localScale = scale;
+            card.transform.Find("Image").localScale = scale;
+            Debug.Log("change x");
         }
     }
 

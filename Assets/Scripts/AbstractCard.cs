@@ -10,9 +10,11 @@ public class AbstractCard
 {
     public Type type;
     public Arrow[] arrows;
-    public int PlayerOwner;
+    public int playerOwner;
     public int id;
     public bool abilityActive;
+    public bool destroyed;
+    public Card card;
 
     public AbstractCard(Type type, int playerOwner, int id)
     {
@@ -25,9 +27,26 @@ public class AbstractCard
             arrows[2] = temp;
 
         }
-        PlayerOwner = playerOwner;
+        this.playerOwner = playerOwner;
         this.id = id;
     }
+
+    public Card CreateCard(int handPos)
+    {
+        if (card != null) return card;
+        GameObject newGameObject = (GameObject)Object.Instantiate(Game.instance.cardObject, Game.instance.GetPlayerCanvasTransform(playerOwner).Find("Deck").position + new Vector3(0, 0, 1), Quaternion.identity);
+        card = newGameObject.GetComponent<Card>();
+        card.playerOwer = playerOwner;
+        card.abstractId = id;
+        card.handPos = handPos;
+        return card;
+    }
+
+    public bool IsCardInDeck()
+    {
+        return !destroyed && card == null;
+    }
+
 
     public class Arrow
     {
@@ -55,8 +74,6 @@ public class AbstractCard
             this.type = type;
         }
     }
-
-
 
     public class Type
     {

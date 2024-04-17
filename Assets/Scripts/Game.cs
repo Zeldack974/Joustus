@@ -1,8 +1,11 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class Game : MonoBehaviour
@@ -12,8 +15,10 @@ public class Game : MonoBehaviour
     public Canvas canvas;
 
     public static Game instance;
+    public int turn;
 
     public List<AbstractCard>[] playerCards = new List<AbstractCard>[2];
+    public int?[,] cardSlots = new int?[2, 3];
 
     private void Awake()
     {
@@ -31,10 +36,12 @@ public class Game : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject newGameObject = (GameObject)Instantiate(cardObject, Camera.main.ScreenToWorldPoint(Input.mousePosition) + new Vector3(0, 0, 1), Quaternion.identity);
-            newGameObject.GetComponent<Card>().playerOwer = Random.Range(0, 1 + 1);
-            newGameObject.GetComponent<Card>().abstractId = Random.Range(0, playerCards[newGameObject.GetComponent<Card>().playerOwer].Count);
-            //newGameObject.transform.SetParent(canvas.transform, false);
+        }
+
+        for (int i = 0; i < 2; i++)
+        {
+            GetPlayerCanvasTransform(i).Find("CardsCount").GameObject().GetComponent<TextMeshProUGUI>().text = $"{GetPlayerDeckCount(i)} / {playersCardsAmount}";
+            GetPlayerCanvasTransform(i).Find("Deck").GameObject().GetComponent<UnityEngine.UI.Image>().sprite = SpritesReferances.instance.DeckAtlas.GetSprite("deck_" + Math.Max(Math.Min(GetPlayerDeckCount(i), 16) - 1, 0));
         }
     }
 
@@ -55,6 +62,46 @@ public class Game : MonoBehaviour
 
         playerCards[0].Shuffle();
         playerCards[1].Shuffle();
+        DrawCards(0);
+        DrawCards(1);
     }
 
+    public void DrawCards(int player)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (cardSlots[player, i] == null)
+            {
+                foreach (AbstractCard abstractCard in playerCards[player])
+                {
+                    if (abstractCard.IsCardInDeck())
+                    {
+                        abstractCard.CreateCard(i);
+                        cardSlots[player, i] = abstractCard.id;
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    public Transform GetPlayerCanvasTransform(int playerId)
+    {
+        return canvas.transform.Find(playerId == 0 ? "Left" : "Right");
+    }
+
+    public AbstractCard IdToAbstractCard(int player, int id)
+    {
+        return playerCards[player][id];
+    }
+
+    public int GetPlayerDeckCount(int player)
+    {
+        int count = 0;
+        foreach (AbstractCard abstractCard in playerCards[player])
+        {
+            if (abstractCard.IsCardInDeck()) count++;
+        }
+        return count;
+    }
 }

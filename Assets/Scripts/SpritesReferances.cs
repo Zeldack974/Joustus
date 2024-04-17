@@ -12,6 +12,7 @@ public class SpritesReferances : MonoBehaviour
     public Sprite bombArrowBomb;
     public SpriteAtlas AbilitiesAtlas;
     public SpriteAtlas AbilitiesDisabledAtlas;
+    public SpriteAtlas DeckAtlas;
 
 
     public static SpritesReferances instance;

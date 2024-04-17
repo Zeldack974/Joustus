@@ -41,7 +41,7 @@ public class Game : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             GetPlayerCanvasTransform(i).Find("CardsCount").GameObject().GetComponent<TextMeshProUGUI>().text = $"{GetPlayerDeckCount(i)} / {playersCardsAmount}";
-            GetPlayerCanvasTransform(i).Find("Deck").GameObject().GetComponent<UnityEngine.UI.Image>().sprite = SpritesReferances.instance.DeckAtlas.GetSprite("deck_" + Math.Max(Math.Min(GetPlayerDeckCount(i), 16) - 1, 0));
+            GetPlayerCanvasTransform(i).Find("Deck").GameObject().GetComponent<UnityEngine.UI.Image>().sprite = SpritesReferences.instance.DeckAtlas.GetSprite("deck_" + Math.Max(Math.Min(GetPlayerDeckCount(i), 16) - 1, 0));
         }
     }
 

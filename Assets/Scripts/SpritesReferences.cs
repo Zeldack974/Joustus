@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
 
-public class SpritesReferances : MonoBehaviour
+public class SpritesReferences : MonoBehaviour
 {
     public SpriteAtlas CardsAtlas;
     public Sprite simpleArrow;
@@ -15,7 +15,7 @@ public class SpritesReferances : MonoBehaviour
     public SpriteAtlas DeckAtlas;
 
 
-    public static SpritesReferances instance;
+    public static SpritesReferences instance;
 
     private void Awake()
     {

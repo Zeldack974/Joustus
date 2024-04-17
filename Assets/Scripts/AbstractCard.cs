@@ -36,7 +36,7 @@ public class AbstractCard
         if (card != null) return card;
         GameObject newGameObject = (GameObject)Object.Instantiate(Game.instance.cardObject, Game.instance.GetPlayerCanvasTransform(playerOwner).Find("Deck").position + new Vector3(0, 0, 1), Quaternion.identity);
         card = newGameObject.GetComponent<Card>();
-        card.playerOwer = playerOwner;
+        card.playerOwner = playerOwner;
         card.abstractId = id;
         card.handPos = handPos;
         return card;

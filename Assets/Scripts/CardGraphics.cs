@@ -16,16 +16,16 @@ public class CardGraphics
 
     public void ApplyColor()
     {
-        if (card.playerOwer == 0)
+        if (card.playerOwner == 0)
         {
-            card.materialInstance.SetInteger("_Red", 0);
+            card.materialInstance.SetFloat("_Red", 0f);
         }
     }
 
     public void UpdateImage()
     {
-        card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferances.instance.CardsAtlas.GetSprite(card.AbstractCard.type.sprite);
-        if (card.playerOwer == 1)
+        card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferences.instance.CardsAtlas.GetSprite(card.AbstractCard.type.sprite);
+        if (card.playerOwner == 1)
         {
             Vector3 scale = card.transform.Find("Image").localScale;
             scale.x *= -1;
@@ -43,7 +43,7 @@ public class CardGraphics
             GameObject abilityObj = card.transform.Find("AbilityBackground").Find("Ability").GameObject();
             abilityObj.SetActive(true);
             SpriteRenderer renderer = abilityObj.GetComponent<SpriteRenderer>();
-            SpriteAtlas atlas = card.AbstractCard.abilityActive ? SpritesReferances.instance.AbilitiesAtlas : SpritesReferances.instance.AbilitiesDisabledAtlas;
+            SpriteAtlas atlas = card.AbstractCard.abilityActive ? SpritesReferences.instance.AbilitiesAtlas : SpritesReferences.instance.AbilitiesDisabledAtlas;
             switch (card.AbstractCard.type.ability.ToLower())
             {
                 case "cascade":
@@ -94,13 +94,13 @@ public class CardGraphics
                     obj.SetActive(false);
                     break;
                 case "simple":
-                    renderer.sprite = SpritesReferances.instance.simpleArrow;
+                    renderer.sprite = SpritesReferences.instance.simpleArrow;
                     break;
                 case "double":
-                    renderer.sprite = SpritesReferances.instance.doubleArrow;
+                    renderer.sprite = SpritesReferences.instance.doubleArrow;
                     break;
                 case "bomb":
-                    renderer.sprite = SpritesReferances.instance.bombArrow;
+                    renderer.sprite = SpritesReferences.instance.bombArrow;
                     isBomb = true;
                     break;
 

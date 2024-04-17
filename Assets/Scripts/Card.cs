@@ -9,7 +9,7 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Card : MonoBehaviour
 {
-    public int playerOwer;
+    public int playerOwner;
     public int abstractId;
     public int handPos;
     public int state = 0;
@@ -24,7 +24,7 @@ public class Card : MonoBehaviour
 
     [HideInInspector]
     public CardGraphics graphics;
-    public AbstractCard AbstractCard => Game.instance.playerCards[playerOwer][abstractId];
+    public AbstractCard AbstractCard => Game.instance.playerCards[playerOwner][abstractId];
 
     void Awake()
     {
@@ -39,7 +39,7 @@ public class Card : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log($"start card {playerOwer} {abstractId}");
+        Debug.Log($"start card {playerOwner} {abstractId}");
         graphics = new CardGraphics(this);
         graphics.ApplyColor();
         graphics.UpdateArrows();
@@ -53,7 +53,7 @@ public class Card : MonoBehaviour
         transform.localScale = Vector3.one * Game.instance.canvas.transform.localScale.magnitude * 175;
         if (state == States.inHand)
         {
-            Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwer).Find("CardSlots").Find(handPos.ToString()).position;
+            Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwner).Find("CardSlots").Find(handPos.ToString()).position;
             newPos.z = transform.position.z;
             if (!animationFinished)
             {

@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &590196656559348997
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2996984716848370900
@@ -249,7 +249,7 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &3356180301697992724
@@ -369,7 +369,7 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &3921289408372547384
@@ -453,7 +453,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &4271772253848986700
@@ -537,7 +537,7 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &5901875900327215026
@@ -617,7 +617,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: d160fea0bf14a5a459d0b753e0d34e49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 087b26611acf8d649b4134e8820d63c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -640,10 +640,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e4d98e8ec800ed4996385a0cebde6e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerOwer: 0
+  playerOwner: 0
   abstractId: 0
+  handPos: 0
+  state: 0
   material: {fileID: 2100000, guid: 3c82a73b6f7b851469bddfd8b1632df0, type: 2}
+  canvas: {fileID: 0}
   materialInstance: {fileID: 0}
+  animationFinished: 0
 --- !u!1 &8936488767980413267
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,6 +729,6 @@ SpriteRenderer:
   m_Size: {x: 0.14, y: 0.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

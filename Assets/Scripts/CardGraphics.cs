@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.ShaderGraph;
 using UnityEngine;
 using UnityEngine.U2D;
 using static UnityEngine.RuleTile.TilingRuleOutput;
@@ -24,7 +25,9 @@ public class CardGraphics
 
     public void UpdateImage()
     {
-        card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferences.instance.CardsAtlas.GetSprite(card.AbstractCard.type.sprite);
+        //card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferences.instance.CardsAtlas.GetSprite(card.AbstractCard.type.sprite);
+        //Debug.Log(card.AbstractCard.type.sprite);
+        card.transform.Find("Image").GameObject().GetComponent<SpriteRenderer>().sprite = SpritesReferences.GetCardSprite(card.AbstractCard.type.sprite);
         if (card.playerOwner == 1)
         {
             Vector3 scale = card.transform.Find("Image").localScale;
@@ -94,13 +97,13 @@ public class CardGraphics
                     obj.SetActive(false);
                     break;
                 case "simple":
-                    renderer.sprite = SpritesReferences.instance.simpleArrow;
+                    renderer.sprite = SpritesReferences.GetSprite("arrow_simple");
                     break;
                 case "double":
-                    renderer.sprite = SpritesReferences.instance.doubleArrow;
+                    renderer.sprite = SpritesReferences.GetSprite("arrow-double");
                     break;
                 case "bomb":
-                    renderer.sprite = SpritesReferences.instance.bombArrow;
+                    renderer.sprite = SpritesReferences.GetSprite("arrow_bomb");
                     isBomb = true;
                     break;
 

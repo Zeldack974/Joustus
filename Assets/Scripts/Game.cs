@@ -14,6 +14,9 @@ public class Game : MonoBehaviour
     public GameObject cardObject;
     public Canvas canvas;
 
+    [HideInInspector]
+    public bool ready = false;
+
     public static Game instance;
     public int turn;
 
@@ -27,13 +30,24 @@ public class Game : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("start game");
+        Debug.Log("Preparing game");
+
+        Loader.instance.Start();
+
         instance = this;
+    }
+
+    public void Ready()
+    {
+        Debug.Log("Game ready !");
         InitializePlayersCards();
+        ready = true;
     }
 
     void Update()
     {
+        if (!ready) return;
+
         if (Input.GetButtonDown("Fire1"))
         {
         }
@@ -45,7 +59,7 @@ public class Game : MonoBehaviour
         }
     }
 
-    public void InitializePlayersCards()
+    public void InitializePlayersCards() 
     {
         playerCards[0] = new List<AbstractCard>();
         playerCards[1] = new List<AbstractCard>();

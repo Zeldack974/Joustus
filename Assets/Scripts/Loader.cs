@@ -30,7 +30,7 @@ public class Loader : MonoBehaviour
         LoadResources();
 
         yield return StartCoroutine(
-            LoadCards("C:\\Users\\Utilisateur\\Documents\\Programmation\\Projets JavaScript\\Test\\img-splitter\\output")
+            LoadCards("C:\\Users\\Utilisateur\\Documents\\Programmation\\Projets JavaScript\\Test\\img-splitter\\output\\d")
         );
 
         loaded = true;

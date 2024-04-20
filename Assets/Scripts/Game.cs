@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class Game : MonoBehaviour
 {
     public int playersCardsAmount = 16;
     public GameObject cardObject;
+    public GameObject loader;
     public Canvas canvas;
 
     [HideInInspector]
@@ -26,6 +28,7 @@ public class Game : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        DontDestroyOnLoad(loader);
     }
 
     void Start()

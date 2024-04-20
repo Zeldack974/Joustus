@@ -6,6 +6,7 @@ using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
@@ -13,7 +14,6 @@ public class Game : MonoBehaviour
 {
     public int playersCardsAmount = 16;
     public GameObject cardObject;
-    public GameObject loader;
     public Canvas canvas;
 
     [HideInInspector]
@@ -28,23 +28,18 @@ public class Game : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        DontDestroyOnLoad(loader);
     }
 
     void Start()
     {
-        Debug.Log("Preparing game");
+        if (!Loader.loaded)
+        {
+            Debug.Log("Trying to load a scene before loading assets");
+            SceneManager.LoadScene(0);
+            return;
+        };
 
-        Loader.instance.Start();
-
-        instance = this;
-    }
-
-    public void Ready()
-    {
-        Debug.Log("Game ready !");
         InitializePlayersCards();
-        ready = true;
     }
 
     void Update()

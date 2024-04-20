@@ -21,7 +21,6 @@ public class Card : MonoBehaviour
     public bool animationFinished;
 
 
-
     [HideInInspector]
     public CardGraphics graphics;
     public AbstractCard AbstractCard => Game.instance.playerCards[playerOwner][abstractId];

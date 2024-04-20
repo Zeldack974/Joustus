@@ -8,12 +8,15 @@ using System.Threading.Tasks;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 public class Loader : MonoBehaviour
 {
     public static bool loaded = false;
 
     public static Loader instance;
+
+    public int sceneToLoad = 1;
 
     public void Awake()
     {
@@ -34,7 +37,9 @@ public class Loader : MonoBehaviour
         );
 
         loaded = true;
-        Game.instance.Ready();
+        //Game.instance.Ready();
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     public static IEnumerator LoadCards(string folderPath)

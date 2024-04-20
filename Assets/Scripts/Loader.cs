@@ -32,14 +32,16 @@ public class Loader : MonoBehaviour
     {
         LoadResources();
 
-        yield return StartCoroutine(
-            LoadCards("C:\\Users\\Utilisateur\\Documents\\Programmation\\Projets JavaScript\\Test\\img-splitter\\output\\d")
-        );
+        //yield return StartCoroutine(
+        //    LoadCards("C:\\Users\\Utilisateur\\Documents\\Programmation\\Projets JavaScript\\Test\\img-splitter\\output\\d")
+        //);
+
+        yield return null;
 
         loaded = true;
         //Game.instance.Ready();
 
-        SceneManager.LoadScene(sceneToLoad);
+        LevelLoader.instance.LoadLevel(sceneToLoad);
     }
 
     public static IEnumerator LoadCards(string folderPath)

@@ -17,6 +17,7 @@ public class Card : MonoBehaviour
     public Canvas canvas;
     [HideInInspector] public Material materialInstance;
     public int animationState = 1;
+    public float scale;
     [HideInInspector] public Animator animator;
 
     [HideInInspector] public CardGraphics graphics;
@@ -45,7 +46,8 @@ public class Card : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localScale = Vector3.one * Game.instance.canvas.transform.localScale.magnitude * 175;
+        scale = Game.instance.canvas.transform.localScale.magnitude;
+        transform.localScale = Vector3.one * scale * 175;
         if (state == States.inHand)
         {
             Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwner).Find("CardSlots").Find(handSlot.ToString()).position;
@@ -53,12 +55,12 @@ public class Card : MonoBehaviour
             Debug.Log(animationState);
             if (animationState == 1)
             { 
-                transform.position = transform.position + (newPos - transform.position).normalized * Mathf.Min(Time.deltaTime * 1f, 1);
+                transform.position = transform.position + (newPos - transform.position).normalized * Mathf.Min(Time.deltaTime * scale * 50f, 1);
                 if ((newPos - transform.position).magnitude < 0.05)
                 {
                     animationState = 2;
                     animator.SetInteger("AnimationState", animationState);
-                    Debug.Log("change state to " + animationState);
+                    Debug.Log($"card {AbstractCard.id} change state to " + animationState);
                 }
             }
             else

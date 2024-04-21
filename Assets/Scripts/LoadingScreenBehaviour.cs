@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainMenuBehaviour : MonoBehaviour
+public class LoadingScreenBehaviour : MonoBehaviour
 {
     public GameObject loader;
     public GameObject spritesReferences;

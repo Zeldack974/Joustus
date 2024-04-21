@@ -10,14 +10,25 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 public class CardGraphics
 {
     public Card card;
-    public bool isBomb;
     public CardGraphics(Card card) {
         this.card = card;
     }
 
+    public void ShowDetails(bool boolean)
+    {
+        for (int i = 0; i < card.transform.childCount; ++i)
+        {
+            card.transform.GetChild(i).gameObject.SetActive(boolean);
+        }
+        if (boolean)
+            UpdateAll();
+        else
+            ApplyColor();
+    }
+
     public void ApplyColor()
     {
-        if (card.playerOwner == 0)
+        if (card.AbstractCard.team == 0)
         {
             card.materialInstance.SetFloat("_Red", 0f);
         }
@@ -91,6 +102,7 @@ public class CardGraphics
             SpriteRenderer renderer = obj.GetComponent<SpriteRenderer>();
 
             obj.SetActive(true);
+            obj.transform.Find("Bomb").GameObject().SetActive(false);
             switch (card.AbstractCard.arrows[i].type)
             {
                 case "none":
@@ -104,11 +116,19 @@ public class CardGraphics
                     break;
                 case "bomb":
                     renderer.sprite = SpritesReferences.GetSprite("arrow_bomb");
-                    isBomb = true;
+                    obj.transform.Find("Bomb").GameObject().SetActive(true);
                     break;
 
             }
             //renderer.sprite = 
         }
+    }
+
+    public void UpdateAll()
+    {
+        ApplyColor();
+        UpdateImage();
+        UpdateArrows();
+        UpdateAbility();
     }
 }

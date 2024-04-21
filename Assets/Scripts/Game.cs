@@ -16,9 +16,6 @@ public class Game : MonoBehaviour
     public GameObject cardObject;
     public Canvas canvas;
 
-    [HideInInspector]
-    public bool ready = false;
-
     public static Game instance;
     public int turn;
 
@@ -44,8 +41,6 @@ public class Game : MonoBehaviour
 
     void Update()
     {
-        if (!ready) return;
-
         if (Input.GetButtonDown("Fire1"))
         {
         }
@@ -88,6 +83,10 @@ public class Game : MonoBehaviour
                 {
                     if (abstractCard.IsCardInDeck())
                     {
+                        //System.Threading.Timer timer = new System.Threading.Timer(x => {
+                        //    abstractCard.CreateCard(i);
+                        //    cardSlots[player, i] = abstractCard.id;
+                        //}, null, 250 * , 0);
                         abstractCard.CreateCard(i);
                         cardSlots[player, i] = abstractCard.id;
                         break;

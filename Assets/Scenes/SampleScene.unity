@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: daf568e1eaf4a8c4784efd821b9d5246, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a7c475c8fdb9dd42addb5edda5bf54c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1409,9 +1409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playersCardsAmount: 16
-  cardObject: {fileID: 5901875900327215026, guid: 94dee70aab84cde46ac25dd27c6f727f, type: 3}
+  cardObject: {fileID: 7632681547695602519, guid: 52c223cfba6f91d4f8522a1393bb55cd, type: 3}
   canvas: {fileID: 1524578771}
-  ready: 0
   turn: 0
 --- !u!4 &574928091
 Transform:
@@ -1704,7 +1703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: daf568e1eaf4a8c4784efd821b9d5246, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a7c475c8fdb9dd42addb5edda5bf54c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2086,7 +2085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -427.6201, y: 0}
+  m_AnchoredPosition: {x: -427.62015, y: 0}
   m_SizeDelta: {x: -855.24, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602082497

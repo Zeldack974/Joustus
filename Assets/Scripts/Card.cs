@@ -15,14 +15,12 @@ public class Card : MonoBehaviour
     public int state = 0;
     public Material material;
     public Canvas canvas;
-    [HideInInspector]
-    public Material materialInstance;
+    [HideInInspector] public Material materialInstance;
+    public int animationState = 1;
+    [HideInInspector] public Animator animator;
 
-    public bool animationFinished;
+    [HideInInspector] public CardGraphics graphics;
 
-
-    [HideInInspector]
-    public CardGraphics graphics;
     public AbstractCard AbstractCard => Game.instance.playerCards[playerOwner][abstractId];
 
     void Awake()
@@ -39,11 +37,9 @@ public class Card : MonoBehaviour
     void Start()
     {
         Debug.Log($"start card {playerOwner} {abstractId}");
+        animator = GetComponent<Animator>();
         graphics = new CardGraphics(this);
-        graphics.ApplyColor();
-        graphics.UpdateArrows();
-        graphics.UpdateImage();
-        graphics.UpdateAbility();
+        graphics.ShowDetails(false);
     }
 
     // Update is called once per frame
@@ -54,12 +50,13 @@ public class Card : MonoBehaviour
         {
             Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwner).Find("CardSlots").Find(handPos.ToString()).position;
             newPos.z = transform.position.z;
-            if (!animationFinished)
+            if (animationState == 1)
             {
-                transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * 5);
-                if ((newPos - transform.position).magnitude < 0.01)
+                transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * 5f);
+                if ((newPos - transform.position).magnitude < 0.05)
                 {
-                    animationFinished = true;
+                    animationState = 2;
+                    animator.SetInteger("AnimationState", animationState);
                 }
             }
             else
@@ -67,6 +64,12 @@ public class Card : MonoBehaviour
                 transform.position = newPos;
             }
         }
+    }
+
+    public void FinishPlaceAnimation()
+    {
+        animationState = 0;
+        graphics.ShowDetails(true);
     }
 
 

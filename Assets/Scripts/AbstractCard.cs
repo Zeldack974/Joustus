@@ -12,6 +12,7 @@ public class AbstractCard
     public Arrow[] arrows;
     public int playerOwner;
     public int id;
+    public int team;
     public bool abilityActive;
     public bool destroyed;
     public Card card;
@@ -29,6 +30,7 @@ public class AbstractCard
         }
         this.playerOwner = playerOwner;
         this.id = id;
+        team = playerOwner;
     }
 
     public Card CreateCard(int handPos)

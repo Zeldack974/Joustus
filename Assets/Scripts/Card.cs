@@ -11,7 +11,7 @@ public class Card : MonoBehaviour
 {
     public int playerOwner;
     public int abstractId;
-    public int handPos;
+    public int handSlot;
     public int state = 0;
     public Material material;
     public Canvas canvas;
@@ -48,15 +48,17 @@ public class Card : MonoBehaviour
         transform.localScale = Vector3.one * Game.instance.canvas.transform.localScale.magnitude * 175;
         if (state == States.inHand)
         {
-            Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwner).Find("CardSlots").Find(handPos.ToString()).position;
+            Vector3 newPos = Game.instance.GetPlayerCanvasTransform(playerOwner).Find("CardSlots").Find(handSlot.ToString()).position;
             newPos.z = transform.position.z;
+            Debug.Log(animationState);
             if (animationState == 1)
-            {
-                transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * 5f);
+            { 
+                transform.position = transform.position + (newPos - transform.position).normalized * Mathf.Min(Time.deltaTime * 1f, 1);
                 if ((newPos - transform.position).magnitude < 0.05)
                 {
                     animationState = 2;
                     animator.SetInteger("AnimationState", animationState);
+                    Debug.Log("change state to " + animationState);
                 }
             }
             else

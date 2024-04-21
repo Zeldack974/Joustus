@@ -6,8 +6,10 @@ using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using static UnityEditor.Progress;
 using Random = UnityEngine.Random;
 
 public class Game : MonoBehaviour
@@ -83,10 +85,6 @@ public class Game : MonoBehaviour
                 {
                     if (abstractCard.IsCardInDeck())
                     {
-                        //System.Threading.Timer timer = new System.Threading.Timer(x => {
-                        //    abstractCard.CreateCard(i);
-                        //    cardSlots[player, i] = abstractCard.id;
-                        //}, null, 250 * , 0);
                         abstractCard.CreateCard(i);
                         cardSlots[player, i] = abstractCard.id;
                         break;
@@ -94,6 +92,12 @@ public class Game : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void RegisterNewCardInSlot(AbstractCard abstractCard, int playerId, int slot)
+    {
+        abstractCard.CreateCard(slot);
+        cardSlots[playerId, slot] = abstractCard.id;
     }
 
     public Transform GetPlayerCanvasTransform(int playerId)

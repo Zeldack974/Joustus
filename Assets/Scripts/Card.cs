@@ -55,7 +55,7 @@ public class Card : MonoBehaviour
             Debug.Log(animationState);
             if (animationState == 1)
             { 
-                transform.position = transform.position + (newPos - transform.position).normalized * Mathf.Min(Time.deltaTime * scale * 50f, 1);
+                transform.position = transform.position + (newPos - transform.position).normalized * Mathf.Min(Time.deltaTime * scale * 200f, 1);
                 if ((newPos - transform.position).magnitude < 0.05)
                 {
                     animationState = 2;
